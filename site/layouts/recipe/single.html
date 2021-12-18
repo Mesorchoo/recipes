@@ -1,5 +1,38 @@
 {{ define "main" }}
 
+<aside id="screenlock-container" style="display:none;position:fixed;top:3rem;left:0;">
+  <button id="screenlock-button">Keep Screen On</button>
+</aside>
+<script>
+  if ('wakeLock' in navigator) {
+    document.getElementById('screenlock-container').style.display = 'block';
+    const buttonElement = document.getElementById('screenlock-button')
+    // The wake lock sentinel.
+    let wakeLock = null;
+
+    // Function that attempts to request a screen wake lock.
+    const requestWakeLock = async () => {
+      try {
+        if(wakeLock) {
+          wakeLock.release()
+        } else {
+          wakeLock = await navigator.wakeLock.request()
+          buttonElement.innerText = 'Screen Wake Lock Enabled'
+          wakeLock.addEventListener('release', () => {
+            buttonElement.innerText = 'Screen Wake Lock Disabled'
+            wakeLock = null
+          })
+        }
+      } catch (error) {
+        buttonElement.innerText = error
+        wakeLock = null
+      }
+    }
+
+    buttonElement.addEventListener('click', requestWakeLock)
+  }
+</script>
+
   <div class="mw6 center ph3 pv4">
     <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
     <div class="flex justify-between grey-3">
