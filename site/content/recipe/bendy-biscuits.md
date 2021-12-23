@@ -2,6 +2,7 @@
 title: Bendy Biscuits
 date: 2021-12-22T05:01:49.282Z
 description: Best eaten when still warm for maximum benditude
+image: img/img_20211223_080217.jpg
 ---
 ## Ingredients
 
