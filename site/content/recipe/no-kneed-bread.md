@@ -1,5 +1,5 @@
 ---
-title: No Kneed Bread
+title: No Knead Bread
 date: 2021-12-26T22:49:37.935Z
 description: No need to get your hands dirty
 ---
