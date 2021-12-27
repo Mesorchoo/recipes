@@ -85,3 +85,35 @@
 
 /* Uncomment out the line below to help debug layout issues */
 /*@import './imports/_debug';*/
+
+#screenlock-button {
+    background-color:var(--primary);
+    line-height:1.5rem;
+    display:none;
+    align-items:center;
+    gap:0.5rem;
+    position:fixed;
+    bottom:3rem;
+    left:0;
+    font-weight:700;
+}
+
+#screenlock-button.locked {
+    background-color:var(--secondary);
+}
+
+#screenlock-container.enabled #screenlock-button {
+    display:flex;
+}
+#screenlock-button svg {
+    height:1.4rem;
+}
+#screenlock-button svg.locked {
+    display:none;
+}
+#screenlock-button.locked svg.unlocked {
+    display:none;
+}
+#screenlock-button.locked svg.locked {
+    display:block;
+}
