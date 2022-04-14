@@ -29,8 +29,6 @@ https://www.chelsea.co.nz/browse-recipes/easter-hot-cross-buns/
 
 <!--EndFragment-->
 
-
-
 <!--StartFragment-->
 
 **\
@@ -43,8 +41,15 @@ Add the beaten egg to the sponged yeast mixture.  Add yeast/egg mixture into th
 
 Place dough in a lightly oiled bowl, cover with plastic wrap and a clean cloth and allow to stand in a warm place until double in bulk (about 40 minutes).
 
-Turn onto a lightly floured surface, punch down and knead dough until smooth and elastic. Divide dough into 16 even-sized pieces - knead each into a round shape. Place on a greased slide tray 1cm apart. Cover and stand in a warm place until well risen (about 10-15 minutes).\
-\
+Turn onto a lightly floured surface, punch down and knead dough until smooth and elastic. Divide dough into 16 even-sized pieces - knead each into a round shape. Place on a greased slide tray 1cm apart. Cover and stand in a warm place until well risen (about 10-15 minutes).
+
+
+
+<!--StartFragment-->
+
+Bake at 220°C conventional (200°C fan forced) for about 20 minutes.
+
+<!--EndFragment-->\
 \
 \
 **Glaze**\
